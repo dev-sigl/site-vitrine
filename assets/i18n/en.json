@@ -11,7 +11,7 @@
     "Testimonies": "Testimonies",
     "À Propos de SIGL" : "About SIGL",
     "AboutText" :
-    "Companies have to develop Information Systems and complex software which best features are their ability to evolve, their reliability as well as their performance. Companies requirements are evolving even faster with the apparition of new market actors and disruptive business models backed up by the promise of new technologies, even more connected and cheaper than ever. There is a need for faster technologies in order to transform existing systems and create the new business services for both today and tomorrow : Online Presence, Interconnection with all Information Systems, new real-time services, better understanding of client needs.",
+    "Companies have to develop Information Systems and complex softwares which best features are their ability to evolve, their reliability as well as their performance. Companies requirements are evolving even faster with the apparition of new market actors and disruptive business models backed up by the promise of new technologies, even more connected and cheaper than ever. There is a need for faster technologies in order to transform existing systems and create the new business services for both today and tomorrow : Online Presence, Interconnection with all Information Systems, new real-time services, better understanding of client needs.",
     "Matières" : "Course List",
     "ModulesIntro" : 
     "In order to better prepare our students for the business community, SIGL specialty is focused on 4 major topics, every one of which bringing a part of the skills and culture required in order to build tomorrow's technologies",
@@ -87,6 +87,10 @@
         "LM_URSI_text2" : "Understand Middleware base that supports it",
         "LM_URSI_text3" : "Understanding Integration issues within the Information System",
         "LM_URSI_text4" : "Grasp the concept of innovation within the IS",
+
+        "LM_ARLA_text1" : "Maîtriser les grands concepts et principes d’architecture logicielle",
+        "LM_ARLA_text2" : "Positionner l’architecture et l’architecte dans l’organisation",
+        "LM_ARLA_text3" : "Savoir analyser la pertinence de technologies logicielles pour chaque besoin",
        
         "LM_VIT1_text1" : "Sensitize issues about IT projects within the IS",
         "LM_VIT1_text2" : "Understand basic concepts of ROI prediction",
@@ -186,5 +190,8 @@
     "LRDE" : " LRDE (Research and Development Laboratory)",
     "LSE" : " LSE (System Laboratory) ",
 
-    "OtherAsso" : "Other student associations"
+    "OtherAsso" : "Other student associations",
+
+    "Maj": "Epita's Majors",
+    "Lab" : "Laboratories"
   }

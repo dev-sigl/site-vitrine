@@ -82,6 +82,10 @@
     "LM_COIN_text1" : "Apprendre à se connaître",
     "LM_COIN_text2" : "Développer son savoir-être",
     "LM_COIN_text3" : "Avoir des clés pour mieux communiquer et travailler en équipe",
+
+    "LM_ARLA_text1" : "Maîtriser les grands concepts et principes d’architecture logicielle",
+    "LM_ARLA_text2" : "Positionner l’architecture et l’architecte dans l’organisation",
+    "LM_ARLA_text3" : "Savoir analyser la pertinence de technologies logicielles pour chaque besoin",
    
     "LM_URSI_text1" : "Découvrir la réalité d’un SI à l’échelle de l'entreprise",
     "LM_URSI_text2" : "Comprendre le socle middleware qui le supporte ",
@@ -185,7 +189,11 @@
     "LRDE" : "Laboratoire de Recherche et Développement de l'EPITA (LRDE)",
     "LSE" : " Laboratoire Système d'EPITA (LSE) ",
 
-    "OtherAsso" : "Toutes les autres associations"
+    "OtherAsso" : "Toutes les autres associations",
+
+
+    "Maj" : "Les Majeures",
+    "Labs" : "Laboratoires"
 
 
    
