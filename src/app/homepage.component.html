@@ -389,6 +389,7 @@
             <div style="margin: 20px;" data-os-animation="fadeInDown">
               <span>
                 <img src="assets/images/assetProject/cloud.jpg" width="70" height="70" />
+                <a href="#features" title="Header test" data-toggle="popover" data-trigger="hover" data-content="Some content">Hover over me</a>
               </span>
             </div>
             <div class="info">
@@ -858,6 +859,25 @@
             </div>
           </div>
           <!-- /.collapse-3 -->
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingFour">
+              <h4 class="panel-title">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFourteen" aria-expanded="false"
+                  aria-controls="collapseFourteen">
+                  {{ "LM_NLPF" | translate}}
+                </a>
+              </h4>
+            </div>
+            <div id="collapseFourteen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+              <div class="panel-body">
+                <h4>Robin Duval</h4>
+                <h5>{{"OBJ" | translate}} </h5>
+                <p>{{"LM_NLPF_text1" | translate }}</p>
+                <p>{{"LM_NLPF_text2" | translate }}</p>
+                <p>{{"LM_NLPF_text3" | translate }}</p>
+              </div>
+            </div>
+          </div>
 
           <div class="panel panel-default">
             <div class="panel-heading" role="tab" id="headingFive">
@@ -1330,3 +1350,8 @@
 <script src=".assets/js/core/main.js"></script>
 <script src=".assets/js/core/demo.switcher.min.js"></script>
 <script src=".assets/js/pages/homepage-01.js"></script>
+<script>
+   $(document).ready(function(){
+      $('[data-toggle="popover"]').popover();   
+   });
+</script>

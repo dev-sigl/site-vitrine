@@ -13,6 +13,10 @@ const languages: string[] =
 
 
 export class NavbarComponent implements OnInit {
+
+    currentLanguage = defaultLanguage;
+    defaultHidden : boolean = true;
+
     constructor(private translate: TranslateService) {
         this.translate.setDefaultLang(defaultLanguage);
         this.translate.addLangs(additionalLanguages);
@@ -21,15 +25,16 @@ export class NavbarComponent implements OnInit {
         if (languages.indexOf(initLang) === -1) {
             initLang = defaultLanguage;
         }
+        this.currentLanguage = initLang;
         this.translate.use(initLang);
     }
 
-    defaultHidden : boolean = true;
+    changeLanguage(lang) {
+        this.defaultHidden = !this.defaultHidden;
+        this.translate.use(lang);
+    }
 
-changeLanguage(lang){
-    this.defaultHidden = lang == defaultLanguage;
-    this.translate.use(lang);
-}
-
-ngOnInit() { }
+    ngOnInit() { 
+        this.defaultHidden = this.currentLanguage == defaultLanguage;
+    }
 }

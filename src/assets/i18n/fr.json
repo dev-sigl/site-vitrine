@@ -29,7 +29,7 @@
     "VIRT" : "Virtualisation",
     "VIRTText" : "Réaliser un Business case se basant sur des lignes de coûts et des leviers d’économies.",
     "IOTText" : "Proposer un produit IoT puis réaliser l'ensemble de la démarche business (Business Case, Publicité) jusqu'à la réalistion d'un Proof Of Concept.",
-    "PAEText" : "Projet avec entreprise tout le long de l'année; SIGL, RE, Société Général, KornFerry, GN... ",
+    "PAEText" : "Projet avec entreprise tout le long de l'année; SIGL, RE, Korn Ferry, GN... ",
     "URSI" : "Urbanisation des SI",
     "URSIText" : "Développement d'un SI simulant le comportement d'une société de distribution telle que le groupe FNAC/Darty.",
     "WTText" : "Deux projets avec des technologies modernes différentes au choix; ROR, Javascript, Golang... ",
@@ -115,8 +115,10 @@
     "LM_ACOO_text3" : "Réussite de certains tests d’admissions",
     "LM_ACOO_text4" : "Effectuer une démarche",
     
-    "LM_NLPF_text" : "Avoir une culture des nouveaux langages et frameworks",
-    
+    "LM_NLPF_text1" : "Avoir une culture des nouveaux langages et frameworks",
+    "LM_NLPF_text2" : "Intégration en entreprise",
+    "LM_NLPF_text3" : "Effectuer une démarche de comparaison et d’analyse",
+
     "LM_DEVO_text1" : "Connaître la valeur ajoutée du DevOps par rapport à une méthodologie plus classique",
     "LM_DEVO_text2" : "Comprendre comment transformer une organisation projet vers le DevOps",
 

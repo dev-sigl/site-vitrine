@@ -29,7 +29,7 @@
     "VIRT" : "Virtualization",
     "VIRTText" : "Business case realization based on cost lines and saving levers",
     "IOTText" : "Creation of an IoT Object and build marketing & business processes (Business Case, Advertising) as well as the realization",
-    "PAEText" : "Group Project in partnership with several companies : Professional Relationships of EPITA, Société Générale",
+    "PAEText" : "Group Project in partnership with several companies : Professional Relationships of EPITA, Korn Ferry ...",
     "URSI" : "IS Urbanization",
     "URSIText" : "Creation of a reduced Information System simulating a Retail company's behavior",
     "WTText" : "Two-sided project realized with modern web technologies (Free Choice) : ROR, Javascript, Golang...",
@@ -113,8 +113,10 @@
         "LM_ACOO_text3" : "Learn key concepts of UML and Object-oriented development",
         "LM_ACOO_text4" : "Practice several conception approaches",
         
-        "LM_NLPF_text" : "Understand culture of new programmation languages and frameworks",
-        
+        "LM_NLPF_text1" : "Understand culture of new programmation languages and frameworks",
+        "LM_NLPF_text2" : "Business integration",
+        "LM_NLPF_text3" : "Perform a comparison and analysis process",
+
         "LM_DEVO_text1" : "Understand DevOps added value against classical development methods",
         "LM_DEVO_text2" : "Understand the DevOps transformation within a project",
     
@@ -143,9 +145,6 @@
         "LM_PERS_text1" : "Undestand and control the evolution of the IT market.",
         "LM_PERS_text2" : "Solve an enterprise problem by designing and creating an IoT solution", 
         "LM_PERS_text3" : "Develop synthesis, analysis and innovation skills",
-
-
-
 
     "DEB" : "Opportunities",
 
