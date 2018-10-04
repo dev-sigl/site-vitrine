@@ -13,28 +13,21 @@ const languages: string[] =
 
 
 export class NavbarComponent implements OnInit {
-
-    currentLanguage = defaultLanguage;
-    defaultHidden : boolean = true;
-
     constructor(private translate: TranslateService) {
-        this.translate.setDefaultLang(defaultLanguage);
+			this.translate.setDefaultLang(defaultLanguage);
         this.translate.addLangs(additionalLanguages);
-
+ 
         let initLang = this.translate.getBrowserLang();
         if (languages.indexOf(initLang) === -1) {
             initLang = defaultLanguage;
         }
-        this.currentLanguage = initLang;
         this.translate.use(initLang);
     }
 
-    changeLanguage(lang) {
-        this.defaultHidden = !this.defaultHidden;
-        this.translate.use(lang);
-    }
 
-    ngOnInit() { 
-        this.defaultHidden = this.currentLanguage == defaultLanguage;
-    }
+  changeLanguage(lang){
+	this.translate.use(lang);
+  }
+
+    ngOnInit() { }
 }

@@ -32,6 +32,7 @@
     "PAEText" : "Group Project in partnership with several companies : Professional Relationships of EPITA, Korn Ferry ...",
     "URSI" : "IS Urbanization",
     "URSIText" : "Creation of a reduced Information System simulating a Retail company's behavior",
+    "Webtechnologies" : "Web technologies",
     "WTText" : "Two-sided project realized with modern web technologies (Free Choice) : ROR, Javascript, Golang...",
     "PMS" : "Multi-specialty Project",
     "PMSText" : "SIGL, Security and Network students work together to propose a transformation solution in a real context",
@@ -40,11 +41,10 @@
     "ARCH" : "Architecture",
     "ARCHText" : "Class Project in order to understand all possible aspects of IS Architecture",
 
-
     "LM_OPCO" : "OPCO : Personal Organization and Communication",
     "LM_AMOA" : "AMOA : Information System Project Management",
     "LM_OPDI" : "OPDI : Information Systems Steering and Organization",
-    "LM_COIN" : "COIN : Interpersonnal communication",
+    "LM_COIN" : "COIN : Interpersonal communication",
     "LM_URSI" : "URSI : Information Systems Urbanization",
     "LM_VIT1" : "VIRT : Virtualization & IT Transformation",
     "LM_ARCL" : "ARCL : Cloud Architecture",
