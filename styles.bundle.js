@@ -9,7 +9,7 @@ webpackJsonp([2,4],{
 var content = __webpack_require__(166);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // add the styles to the DOM
-var update = __webpack_require__(224)(content, {});
+var update = __webpack_require__(225)(content, {});
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -30,19 +30,19 @@ if(false) {
 /***/ 166:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(52)(false);
+exports = module.exports = __webpack_require__(30)(false);
 // imports
 
 
 // module
-exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\r\n", ""]);
+exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\r\n.popover{\r\n   border:none;\r\n   border-radius:unset;\r\n   min-width:100px;\r\n   width:100%;\r\n   max-width:1000px;\r\n   overflow-wrap:break-word;\r\n}\r\n\r\nth{\r\n    padding-right: 10px;\r\n    vertical-align: top;\r\n}", ""]);
 
 // exports
 
 
 /***/ }),
 
-/***/ 224:
+/***/ 225:
 /***/ (function(module, exports) {
 
 /*
@@ -295,7 +295,7 @@ function updateLink(linkElement, obj) {
 
 /***/ }),
 
-/***/ 232:
+/***/ 233:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(103);
@@ -303,7 +303,7 @@ module.exports = __webpack_require__(103);
 
 /***/ }),
 
-/***/ 52:
+/***/ 30:
 /***/ (function(module, exports) {
 
 /*
@@ -386,5 +386,5 @@ function toComment(sourceMap) {
 
 /***/ })
 
-},[232]);
+},[233]);
 //# sourceMappingURL=styles.bundle.js.map
